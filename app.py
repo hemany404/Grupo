@@ -3,7 +3,7 @@ import requests
 
 BASE_URL = "https://api-drhh.onrender.com"
 
-st.title("GANGUE DE VIP")
+st.title("Grupo")
 
 # ---------------------------
 # Formulário de cadastro
