@@ -1,14 +1,14 @@
 import streamlit as st
 import requests
 
-BASE_URL = "https://delivery-api-drhh.onrender.com"
+BASE_URL = "https://api-drhh.onrender.com"
 
 st.title("GANGUE DE VIP")
 
 # ---------------------------
 # Formulário de cadastro
 # ---------------------------
-st.subheader("Cadastro VIP")
+st.subheader("Cadastro ")
 with st.form("form_cadastro"):
     nome = st.text_input("Nome")
     email = st.text_input("Email")
@@ -54,7 +54,7 @@ st.markdown("---")
 # ---------------------------
 # Ver link do grupo
 # ---------------------------
-st.subheader("Acesso ao Grupo VIP")
+st.subheader("Acesso ao Grupo ")
 usuario_id = st.text_input("Digite seu número de usuário para ver o link")
 
 if st.button("Obter o link do grupo"):
@@ -73,9 +73,9 @@ if st.button("Obter o link do grupo"):
                     st.success("Acesso liberado!")
 
                     st.markdown(f"[Clique aqui para acessar o grupo]({link})")
-                    st.markdown("OBS: 2000 kz Subscrição mensal")
-                    st.markdown("Número para fazer pagamento por Express: **922715666**")
-                    st.markdown("Número para enviar o comprovativo: **926710597**")
+                    st.markdown("OBS: ")
+                    st.markdown("Número: ***")
+                    st.markdown("Número : ****")
 
                 else:
                     try:
